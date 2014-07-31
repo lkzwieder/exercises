@@ -54,7 +54,7 @@ class LargeInteger {
             $b = str_split($b);
         }
         foreach($a as $i => $v) {
-            $res = null;
+            $res = false;
             if($v < $b[$i]) {
                 $res = false;
                 break;
@@ -63,7 +63,7 @@ class LargeInteger {
                 break;
             }
         }
-        return $res === null ? false : $res;
+        return $res;
     }
 
     private function _array_reverse(Array $arr) {
