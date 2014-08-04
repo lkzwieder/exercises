@@ -39,11 +39,11 @@ class LargeInteger {
     }
 
     public function add(LargeInteger $second_object) {
-        $res = $this->_doAdd($this->bigInt, $second_object->get_value());
+        $res = $this->_doAdd($this, $second_object);
         return new LargeInteger($res);
     }
 
-    private function _isGreater($b) {
+    private function _isGreater(LargeInteger $b) {
         $a = $this->bigInt;
         $b = $b->get_value();
         if(strlen($a) > strlen($b)) {
@@ -76,7 +76,9 @@ class LargeInteger {
         return $res;
     }
 
-    private function _doAdd($a, $b) {
+    private function _doAdd(LargeInteger $a, LargeInteger $b) {
+        $a = $a->get_value();
+        $b = $b->get_value();
         $res = null;
         if(strlen($a) > strlen($b)) {
             $iterable = $a;
