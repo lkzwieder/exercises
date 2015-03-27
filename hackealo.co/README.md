@@ -12,3 +12,6 @@ hackealo.co's exercise
  tZYbREHTHZGEmkdggeUmxurTtNojaupIqsULJmvbhHAIuZfwwuOapNyZYivoQQBZkStzpRROQfhoQFejrFpOAOgwaFPPvjQrKXrXOXRnReGjWdGiBZtAwUaYjTmdHvamHYIprjEcoxmNvPOBGFBoYFLnJQZrlzZxmfaJHALjoRwagBFeRmaWytAilqeIHfZwPpUAmYF
 - If tie, sort alphabetically.
 - Give lowercase answer.
+
+### Ejemplo / Example
+'bBAaics' => 'abcis'
