@@ -1,5 +1,5 @@
 <?php
-$str = "tZYbREHTHZGEmkdggeUmxurTtNojaupIqsULJmvbhHAIuZfwwuOapNyZYivoQQBZkStzpRROQfhoQFejrFpOAOgwaFPPvjQrKXrXOXRnReGjWdGiBZtAwUaYjTmdHvamHYIprjEcoxmNvPOBGFBoYFLnJQZrlzZxmfaJHALjoRwagBFeRmaWytAilqeIHfZwPpUAmYF";
+$str = strtolower("tZYbREHTHZGEmkdggeUmxurTtNojaupIqsULJmvbhHAIuZfwwuOapNyZYivoQQBZkStzpRROQfhoQFejrFpOAOgwaFPPvjQrKXrXOXRnReGjWdGiBZtAwUaYjTmdHvamHYIprjEcoxmNvPOBGFBoYFLnJQZrlzZxmfaJHALjoRwagBFeRmaWytAilqeIHfZwPpUAmYF");
 $duplicates = [];
 $res = [];
 
@@ -10,7 +10,7 @@ for($i = strlen($str); $i--;) {
 
 arsort($duplicates);
 foreach($duplicates as $k => $v) {
-  if(!isset($res[$v])) $res[$v] = [];
+  if(!isset($res[$v])) $res[$v] = [$k];
   else array_push($res[$v], $k);
 }
 
@@ -19,7 +19,7 @@ foreach($res as $k => $v) {
   sort($v);
   foreach($v as $toPrint) {
     $y .= $toPrint;
-    // echo $toPrint." amount: ".$k."<br />";
+//    echo $toPrint." amount: ".$k."<br />";
   }
 }
-echo strtolower($y);
+echo $y;
