@@ -1,15 +1,19 @@
-Write up a class called largeinteger that will provide the following methods:
+This exercise was asked by a contractor, in order to obtain the job.
+===
 
-__construct($integer_value)  // this is the value that the object instantiation represents.
-get_value()  // returns the integer value set to the object
-equal_to(largeinteger $comparsion_object)
-not_equal_to(largeinteger $comparsion_object)
-greater_than(largeinteger $comparsion_object)
-less_than(largeinteger $comparsion_object)
-greater_or_equal_than(largeinteger $comparsion_object)
-less_or_equal_than(largeinteger $comparsion_object)
-add(largeinteger $second_object) // this returns a new instance of largeinteger
+###Write up a class called largeinteger that will provide the following methods:
 
+- __construct($integer_value)  // this is the value that the object instantiation represents.
+- get_value()  // returns the integer value set to the object
+- equal_to(largeinteger $comparsion_object)
+- not_equal_to(largeinteger $comparsion_object)
+- greater_than(largeinteger $comparsion_object)
+- less_than(largeinteger $comparsion_object)
+- greater_or_equal_than(largeinteger $comparsion_object)
+- less_or_equal_than(largeinteger $comparsion_object)
+- add(largeinteger $second_object) // this returns a new instance of largeinteger
+
+###RULES:
 - The comparison operations will return a true or false value, based on the test conducted between the current object and the passed object.
 - The class should only deal with unsigned ints. Throw an exception if it's < 0.
 - 0 with any kind of sign should be treated as 0.
