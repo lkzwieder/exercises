@@ -1,4 +1,4 @@
-This is one of hackealo.co exercise
+hackealo.co's exercise
 ===
 
 ###RULES:
