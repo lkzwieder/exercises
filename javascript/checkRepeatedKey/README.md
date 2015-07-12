@@ -1,0 +1,1 @@
+http://stackoverflow.com/questions/31365296/get-all-json-files-from-node-folder-and-find-specific-attr-inside/31369011#31369011

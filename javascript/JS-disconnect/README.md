@@ -1,0 +1,1 @@
+http://stackoverflow.com/questions/31348932/logout-timer-php-javascript/31349032#31349032

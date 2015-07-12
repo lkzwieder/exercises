@@ -1,0 +1,15 @@
+    {"action": [
+      {
+        "delete": {
+          "path": "deleteFile",
+          "providedAction": "Del"
+        }
+      },
+      {
+        "update": {
+          "path": "updateFile",
+          "providedAction": "UPD"
+        }
+      }
+    ]
+    }

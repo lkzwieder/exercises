@@ -1,5 +1,5 @@
 <?php
-$str = strtolower("tZYbREHTHZGEmkdggeUmxurTtNojaupIqsULJmvbhHAIuZfwwuOapNyZYivoQQBZkStzpRROQfhoQFejrFpOAOgwaFPPvjQrKXrXOXRnReGjWdGiBZtAwUaYjTmdHvamHYIprjEcoxmNvPOBGFBoYFLnJQZrlzZxmfaJHALjoRwagBFeRmaWytAilqeIHfZwPpUAmYF");
+$str = strtolower("AmCyjxoGaypIOJobiogCZJioCOMCBhbRjpBHSHfPFYDRKvePttNDghSVCrVAdZYmtSwJpOsvFwvkDxcIbClQxeAmevcfntWBVykbZHgTaZZqAhGPqgPJHYsYdnndbqBEdNHIUtRfbilcNPyzMPfWccrlHuBMZLvtjCdnTULngcquvLbMgvzEIcnebQNBcXBOusgPJmJ");
 $duplicates = [];
 $res = [];
 
