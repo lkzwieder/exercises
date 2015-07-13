@@ -1,0 +1,1 @@
+http://stackoverflow.com/questions/31392094/how-to-round-up-if-value-is-two-decimal-and-format-as-3-decimals-in-javascript/31393397#31393397
