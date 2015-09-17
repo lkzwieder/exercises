@@ -1,0 +1,1 @@
+Mouse utils is designed to capture mouse events and it makes easy to know which button is pressed, when the button is released and so on.
