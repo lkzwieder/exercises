@@ -8,13 +8,12 @@ const graph = {
     a4: ['a7'],
     a5: ['a6'],
     a6: ['a5'],
-    a7: ['a3', 'a6', 'a8'],
+    a7: ['a6', 'a8', 'a3'],
     a8: ['finish'],
     a9: []
 };
 
 let route = '';
-let noWayOut = [];
 let processed = [];
 
 const process = pos => {
@@ -30,14 +29,11 @@ const process = pos => {
             }
         }    
     }
-    return findAnotherWay();  
-}
 
-const findAnotherWay = () => {
     let way = route.split(symbol);
-    noWayOut.push(way.pop());
+    way.pop();
     route = way.join(symbol);
-    process(way[way.length -1]);
-};
+    return process(way[way.length -1]);
+}
 
 process('start');
